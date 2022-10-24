@@ -1,1 +1,1 @@
-The project is focused on optimization. It uses Backtracking search algorithm and focuses on implementing functions to enforce node and arc consistency.
+The project is focused on optimization. It uses Backtracking search algorithm and focuses on implementing functions to enforce node and arc consistency. 'generate.py' is a helper file used to generate images of the output.
