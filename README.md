@@ -1,22 +1,4 @@
-# cs50-ai
-This repository contains projects done as part of the CS50’s Introduction to Artificial Intelligence with Python HarvardX course.
-Projects details:
-1. Project 0
-   Consists of Degrees and Tic-tac-toe parts. Uses implementations of Depth First Search, Breadth First Search, and Minimax algorithms.
-   Branch: project-0.
-2. Project 1
-   Consists of Puzzle and Minesweeper parts.
-   Branch: project-1.
-3. Project 2
-   Consists of Pagerank and Heredity parts. Uses implementations of Marlov Chains and focuses on probability operations.
-   Branch: project-2.
-4. Project 3
-   Consists of a Crossword part. Focuses on optimization. Uses Backtracking Search algorithm, implemets functions for node and arc consistency enforcing.
-   Branch: project-3.
-5. Project 4
-   Consists of Shopping and Nim parts. Uses scikit-learn library and principles of reinforcement learning.
-   Branch: project-4.
-6. Project 5
-   Consists of a Traffic part. Uses opencv-python, tensorflow, and a scikit-learn library.
-   Branch: project-5.
-   
+Traffic project implements an AI to identify which traffic sign appears in a photograph. I experimented with different approaches for upgrading the performnce of my network. The short summary is provided below.
+For upgrading the performance of my network I tried a couple of different approaches. Firstly, I started with the simplest network without convolution and hidden layers, but its performance was poor. My next step was to try adding one layer of convolution with max-pooling using (2,2) size and dropout value of 0.5. This improved results drastically, as I believe that it helped to extract useful information from the photos with the 32 'filters' I chose to apply. Adding the second layer of convolution (with max-pooling using (2,2) size and a dropout value of 0.5) upgraded the resulting accuracy even more - I reached my current accuracy of approximately 0.942. However, adding the third layer of convolution (with max-pooling using (2,2) size and dropout value of 0.5) made the performance worse.
+After experimenting with the optimal number of convolution layers, I moved straight on to determining one of the hidden layers. I found out that having one hidden is the best solution as my adding of an additional one has not improved any results at all. Moreover, the optimal quantity of units in the hidden layer turned out to be 128, as increasing their number did not improve the network's performance, and decreasing this value had a negative effect on the accuracy. 
+For the review of the performance of the network, see the following video: https://vimeo.com/741085007
