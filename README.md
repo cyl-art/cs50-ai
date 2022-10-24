@@ -1,6 +1,2 @@
-# cs50-ai
-This repository contains projects done as part of the CS50’s Introduction to Artificial Intelligence with Python HarvardX course.
-                                                       Projects details:
-1. Project 0
-   Consists of Degrees and Tic-tac-toe parts. Uses implementations of Depth First Search, Breadth First Search, and Minimax algorithms.
-   Branch: project 0.
+'Puzzle' part of a project implements a program to solve logic puzzles. 'logic.py' is a necessary supplement file.
+'Minesweeper' part of a project implements an AI to play Minesweeper.
